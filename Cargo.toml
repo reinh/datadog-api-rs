@@ -1,0 +1,19 @@
+[package]
+name = "datadog-api"
+version = "0.1.0"
+authors = ["Rein Henrichs <rein.henrichs@procore.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+hyper = "0.12.27"
+hyper-rustls = "0.16.1"
+error-chain = "0.12.0"
+tokio-core = "0.1.17"
+futures = "0.1.26"
+serde = "1.0.90"
+serde_json = "1.0.39"
+
+[dev-dependencies]
+serde_derive = "1.0.90"
